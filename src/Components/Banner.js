@@ -55,11 +55,15 @@ const tick = () => {
 <Container>
     <Row className="align-items-center">
 <Col xs ={12} md ={6} xl= {7}>
-  
-<h1>{`Hi, I'm Anshika `}<span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Frontend Web Developer","UI Designer" ]'><span className="wrap">{text}</span></span></h1>
-<p>I'm a 2nd year Computer Science student from Jammu,India. It's been more an year that I'm coding.
-  <h2>Just  an explorer in the realm of technology....</h2>
-</p>
+
+<h1 className="heading-name">
+Hi!   I'M
+                <strong className="main-name"> ANSHIKA</strong>
+              </h1>
+
+<span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Frontend Web Developer","UI Designer" ]'><span className="wrap">{text}</span></span>
+
+
 
 
 </Col>

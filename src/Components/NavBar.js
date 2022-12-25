@@ -46,7 +46,7 @@ const onUpdateActiveLink = (value) => {
       <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
         <Container>
           <Navbar.Brand>
-            <img src= {logo} alt = "logo" style={{width:"70%"}} />
+            <img src= {logo} alt = "logo" />
             </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" >
            <span className="navbar-toggler-icon"></span>
