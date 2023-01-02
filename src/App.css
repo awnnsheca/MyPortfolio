@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@200&family=Open+Sans:wght@400;700&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -310,8 +310,29 @@ input:focus,textarea:focus,select:focus {
     border-color: transparent;
   }
   
+.about {
+margin-top:0 ;
+padding: 0 0 50px 0;
+position: relative;
+background-color:#171718;
 
 
+}
+
+.about p {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  letter-spacing: 2%;
+  line-height: 40px;
+  color: white;
+  text-align: center;
+  margin-left: 15%;
+  display: flex;
+  margin-right: 15%;
+  font-size: 100%;
+  font-family:'Raleway', sans-serif; 
+  font-weight: bold;
+}
 
 
 
